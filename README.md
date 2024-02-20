@@ -36,7 +36,7 @@ This command builds and starts the MySQL, PostgreSQL, and pgloader services.
 4. **Import your MySQL dump into the MySQL service**
 
 ```shell
-docker exec -i <mysql_container_name> mysql -u root -p"rootpassword" mydb < /path/to/your/mydb_dump.sql
+docker exec -i <mysql_container_name> mysql -u root -p"rootpassword" mydb < /mysql_data/test.sql
 ```
 
 
